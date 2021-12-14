@@ -16,11 +16,17 @@ Log4J的漏洞复现
 #### 使用说明
 
 1.  编写你的poc代码块
+![输入图片说明](image.png)
 2.  编译Exploit.java
 javac Exploit.java
 形成Exploit.class
 3.  开启LDAP协议
+![输入图片说明](image/image.png)
+4.开启http服务器，用python简单开启，注意要和被访问的端口一致
+![输入图片说明](image/p4image.png)
+5.回到Log4J.java运行程序，即可看到你的POC代码块的结果
 
+漏洞原理及详细内容不具体分析，仅仅记录一下
 
 #### 参与贡献
 
