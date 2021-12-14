@@ -9,15 +9,18 @@ Log4J的漏洞复现
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  git clone https://gitee.com/demonbhao/log4j2-cve-2021-44228.git
+2.  安装JDK1.8.0以下版本
+3.  安装maven，打包需要
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  编写你的poc代码块
+2.  编译Exploit.java
+javac Exploit.java
+形成Exploit.class
+3.  开启LDAP协议
+
 
 #### 参与贡献
 
